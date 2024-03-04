@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "sperrypc";
+  src: url("./assets/fonts/Px437_SperryPC_8x16.ttf") format("truetype");
+}
+body {
+  font-family: "sperrypc", sans-serif; /* Aplica a fonte ao corpo do documento */
+}
